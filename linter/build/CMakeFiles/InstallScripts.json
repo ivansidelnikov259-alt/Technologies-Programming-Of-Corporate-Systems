@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Technologies programming of corporate systems/linter/build/cmake_install.cmake",
+		"D:/Technologies programming of corporate systems/linter/build/tests/cmake_install.cmake",
+		"D:/Technologies programming of corporate systems/linter/build/_deps/googletest-build/cmake_install.cmake",
+		"D:/Technologies programming of corporate systems/linter/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"D:/Technologies programming of corporate systems/linter/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

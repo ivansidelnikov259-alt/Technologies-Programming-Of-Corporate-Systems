@@ -1,0 +1,345 @@
+{
+  "tests": 57,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FileIteratorTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ScanDirectory",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
+          "line": 30
+        },
+        {
+          "name": "IteratorHasNextAndNext",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
+          "line": 37
+        },
+        {
+          "name": "IteratorReset",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
+          "line": 51
+        },
+        {
+          "name": "ScanSingleFile",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
+          "line": 65
+        },
+        {
+          "name": "InvalidPath",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "name": "FileReaderTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "FileExists",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
+          "line": 24
+        },
+        {
+          "name": "FileDoesNotExist",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
+          "line": 29
+        },
+        {
+          "name": "ReadExistingFile",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
+          "line": 34
+        },
+        {
+          "name": "ReadNonExistentFile",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
+          "line": 43
+        },
+        {
+          "name": "ReadEmptyFile",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "name": "ReportManagerTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "SingletonInstance",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 19
+        },
+        {
+          "name": "AddSingleError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 26
+        },
+        {
+          "name": "AddMultipleErrors",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 33
+        },
+        {
+          "name": "ClearErrors",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 41
+        },
+        {
+          "name": "CountByType",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 49
+        },
+        {
+          "name": "GenerateReport",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_ReportManager.cpp",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "name": "LinterEngineTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "AddRule",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 19
+        },
+        {
+          "name": "RemoveRule",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 26
+        },
+        {
+          "name": "ClearAllRules",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 37
+        },
+        {
+          "name": "AnalyzeNonExistentFile",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 45
+        },
+        {
+          "name": "AnalyzeWithNoRules",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 53
+        },
+        {
+          "name": "AnalyzeMultipleFiles",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LinterEngine.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "MemoryLeakRuleTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "NewAndDeleteCorrect",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 12
+        },
+        {
+          "name": "NewWithoutDeleteError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 21
+        },
+        {
+          "name": "MultipleNewOneDelete",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 28
+        },
+        {
+          "name": "RawNewWithoutAssignment",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 39
+        },
+        {
+          "name": "DeleteWithoutNew",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 46
+        },
+        {
+          "name": "NestedScopes",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 56
+        },
+        {
+          "name": "NewInClass",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "name": "UninitVarRuleTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "InitializedVariableCorrect",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 12
+        },
+        {
+          "name": "UninitializedVariableError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 18
+        },
+        {
+          "name": "ConstructorInitialization",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 25
+        },
+        {
+          "name": "UniformInitialization",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 31
+        },
+        {
+          "name": "MultipleDeclarationsOneUninit",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 37
+        },
+        {
+          "name": "InsideFunction",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 45
+        },
+        {
+          "name": "VariableInCommentIgnored",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "name": "LineLengthRuleTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "ShortLineCorrect",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 13
+        },
+        {
+          "name": "Exactly80Chars",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 20
+        },
+        {
+          "name": "OneCharOverLimit",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 28
+        },
+        {
+          "name": "LongLineWithComment",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 38
+        },
+        {
+          "name": "EmptyLine",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 47
+        },
+        {
+          "name": "TrailingSpaces",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 54
+        },
+        {
+          "name": "MultipleLinesOneLong",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_LineLengthRule.cpp",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "name": "VarNameRuleTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "CorrectSnakeCase",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 12
+        },
+        {
+          "name": "CamelCaseError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 18
+        },
+        {
+          "name": "UpperCaseStartError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 25
+        },
+        {
+          "name": "SnakeCaseWithNumber",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 31
+        },
+        {
+          "name": "MultipleDeclarations",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 37
+        },
+        {
+          "name": "VariableInComment",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 45
+        },
+        {
+          "name": "ConstructorInitialization",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "name": "IndentRuleTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "CorrectFourSpaces",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 13
+        },
+        {
+          "name": "EmptyLine",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 20
+        },
+        {
+          "name": "TabCharacterError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 27
+        },
+        {
+          "name": "MixedSpacesAndTabs",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 36
+        },
+        {
+          "name": "TwoSpacesError",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 44
+        },
+        {
+          "name": "EightSpacesCorrect",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 52
+        },
+        {
+          "name": "NoIndentAtTopLevel",
+          "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_IndentRule.cpp",
+          "line": 59
+        }
+      ]
+    }
+  ]
+}

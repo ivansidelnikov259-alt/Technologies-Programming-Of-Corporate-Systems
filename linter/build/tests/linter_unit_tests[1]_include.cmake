@@ -1,0 +1,5 @@
+if(EXISTS "D:/Technologies programming of corporate systems/linter/build/tests/linter_unit_tests[1]_tests.cmake")
+  include("D:/Technologies programming of corporate systems/linter/build/tests/linter_unit_tests[1]_tests.cmake")
+else()
+  add_test(linter_unit_tests_NOT_BUILT linter_unit_tests_NOT_BUILT)
+endif()
