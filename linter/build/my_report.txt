@@ -1,2 +1,0 @@
-=== LINTER REPORT ===
-No issues found. Code looks good!

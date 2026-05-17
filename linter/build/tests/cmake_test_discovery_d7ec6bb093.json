@@ -9,27 +9,27 @@
         {
           "name": "ScanDirectory",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
-          "line": 30
+          "line": 29
         },
         {
           "name": "IteratorHasNextAndNext",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
-          "line": 37
+          "line": 36
         },
         {
           "name": "IteratorReset",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
-          "line": 51
+          "line": 50
         },
         {
           "name": "ScanSingleFile",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
-          "line": 65
+          "line": 64
         },
         {
           "name": "InvalidPath",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileIterator.cpp",
-          "line": 73
+          "line": 72
         }
       ]
     },
@@ -40,27 +40,27 @@
         {
           "name": "FileExists",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
-          "line": 24
+          "line": 23
         },
         {
           "name": "FileDoesNotExist",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
-          "line": 29
+          "line": 28
         },
         {
           "name": "ReadExistingFile",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
-          "line": 34
+          "line": 33
         },
         {
           "name": "ReadNonExistentFile",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
-          "line": 43
+          "line": 42
         },
         {
           "name": "ReadEmptyFile",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_FileReader.cpp",
-          "line": 49
+          "line": 48
         }
       ]
     },
@@ -163,17 +163,17 @@
         {
           "name": "DeleteWithoutNew",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
-          "line": 46
+          "line": 45
         },
         {
           "name": "NestedScopes",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
-          "line": 56
+          "line": 55
         },
         {
           "name": "NewInClass",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_MemoryLeakRule.cpp",
-          "line": 67
+          "line": 66
         }
       ]
     },
@@ -209,12 +209,12 @@
         {
           "name": "InsideFunction",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
-          "line": 45
+          "line": 44
         },
         {
           "name": "VariableInCommentIgnored",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_UninitVarRule.cpp",
-          "line": 57
+          "line": 56
         }
       ]
     },
@@ -291,12 +291,12 @@
         {
           "name": "VariableInComment",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
-          "line": 45
+          "line": 44
         },
         {
           "name": "ConstructorInitialization",
           "file": "D:\\Technologies programming of corporate systems\\linter\\tests\\unit\\test_VarNameRule.cpp",
-          "line": 51
+          "line": 50
         }
       ]
     },
