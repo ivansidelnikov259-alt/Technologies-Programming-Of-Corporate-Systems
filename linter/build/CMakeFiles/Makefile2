@@ -255,8 +255,8 @@ CMakeFiles/linter.dir/clean:
 
 # All Build rule for target.
 tests/CMakeFiles/linter_unit_tests.dir/all: CMakeFiles/linter_core.dir/all
-tests/CMakeFiles/linter_unit_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/linter_unit_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/linter_unit_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\linter_unit_tests.dir\build.make tests/CMakeFiles/linter_unit_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\linter_unit_tests.dir\build.make tests/CMakeFiles/linter_unit_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Technologies programming of corporate systems\linter\build\CMakeFiles" --progress-num=21,22,23,24,25,26,27,28,29,30,31 "Built target linter_unit_tests"

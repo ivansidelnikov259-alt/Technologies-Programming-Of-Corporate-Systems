@@ -271,4 +271,9 @@ tests/CMakeFiles/linter_unit_tests.dir/unit/test_LinterEngine.cpp.obj: \
  D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex.h \
  D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex.tcc \
  D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex_executor.h \
- D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex_executor.tcc
+ D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex_executor.tcc \
+ D:/Technologies\ programming\ of\ corporate\ systems/linter/src/rules/UninitVarRule.h \
+ D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/fstream \
+ D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ D:/CPP\ DK/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/fstream.tcc
